@@ -120,18 +120,18 @@ void updatePointer() {
   last_pointer = pointer;
 }
 // красивая рамка
-void ui_rama(const char* name, bool draw_b, bool draw_l, bool cleardisplay) {
-  if (cleardisplay == true) {
+void ui_rama(const char* name, bool draw_bat, bool draw_line, bool cleardisplay) {
+  if (cleardisplay) {
     oled.clear(); // чити
   }
   oled.home();  // домой
   oled.setScale(1); // размер 1
   oled.print(name);  // надпись
   oled.setScale(0); // вернуть размер назад (костыль)
-  if (draw_b == true) {
+  if (draw_bat) {
     drawbattery();
   }
-  if (draw_l == true) {
+  if (draw_line) {
     oled.line(0, 10, 127, 10);   // Линия
   }
   oled.update();
@@ -653,7 +653,6 @@ void create_settings() {
   String ssid = db[kk::wifi_ssid];
   bool wifi_connected = false;
   
-    // Замените старый код подключения WiFi на:
     if(db[kk::wifi_enabled].toInt()) {
       connectToWiFi();
       if(ssid.isEmpty()) {
@@ -673,10 +672,9 @@ void create_settings() {
       // WiFi отключен в настройках
       startAP();
   }
- 
   // Основной интерфейс настроек
   oled.clear();
-  ui_rama("WiFi Веб", true, true, true);
+  ui_rama("WiFi Веб", false, true, true);
   oled.setCursor(0, 2);
   if (wifiConnected) {
     oled.print("IP:");
