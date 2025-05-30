@@ -1,5 +1,4 @@
-﻿# КОРОЧЕ Я ЧЁ - ТО ПОЛОМАЛ. ПОКА НЕ СКАЧИВАЙТЕ!!!!!!!!!!!
- # CatOs Lite - читалка для ESP32
+# CatOs Lite - читалка для ESP32
 | *> CatOs Lite <* | [CatOs Pro](https://github.com/CatDevCode/CatOs/) |
 | --- | --- |
 
