@@ -24,6 +24,8 @@
 
 ![scheme_bat](https://github.com/CatDevCode/CatOs/blob/main/assets/bat.png)
 
+!!! Резисторы на 100 kOm
+
 ## Создание изображений и загрузка
 1. Запустите [imageProcessor.exe](https://github.com/AlexGyver/imageProcessor) (установите java)
 
