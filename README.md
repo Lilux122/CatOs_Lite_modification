@@ -1,5 +1,5 @@
 # CatOs Lite - читалка для ESP32
-| *> CatOs Lite <* | [CatOs Pro](https://github.com/CatDevCode/CatOs/) |
+| *> CatOs Lite <* | [CatOs](https://github.com/CatDevCode/CatOs/) |
 | --- | --- |
 
 Прошивка для портативной читалки(шпоргалки) на базе ESP32 с OLED-дисплеем. 
