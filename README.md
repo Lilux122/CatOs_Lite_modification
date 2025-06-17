@@ -22,7 +22,7 @@
 
 2. Схема питания
 
-![scheme_bat](https://github.com/CatDevCode/CatOs/blob/main/assets/bat.png)
+![scheme_bat](https://github.com/CatDevCode/CatOs/blob/main/assets/bat_lite.png)
 
 > [!TIP]
 > Резисторы на 100 kOm
