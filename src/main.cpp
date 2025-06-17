@@ -24,7 +24,7 @@ int totalPages = 0;
 #define VOLTAGE_DIVIDER 2.0
 // Напряжения для расчета процента заряда (калибровка под ваш аккумулятор). Настройки в serv меню
 #define BAT_NOMINAL_VOLTAGE 3.7 // Номинальное напряжение (3.7V)
-#define BATTERY_PIN         4   // GPIO34 (ADC1_CH6) для измерения напряжения
+#define BATTERY_PIN         4   // GPIO4 для измерения напряжения
 float batteryVoltage = 0;
 int batteryPercentage = 0;
 //----------------------------------
