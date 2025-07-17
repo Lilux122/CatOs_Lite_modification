@@ -18,7 +18,7 @@
 ## Простой для DIY
 1. Схема подключения
 
-![scheme](https://github.com/Lilux122/CatOs_Lite_modification/tree/main/photos/lol.png)
+![scheme]((https://github.com/Lilux122/CatOs_Lite_modification/blob/main/photos/lol.png))
 
 Чтобы увидеть более улучшеную схему подключения перейдите на этот сайт https://wokwi.com/projects/436710693132425217
 ## Создание изображений и загрузка
