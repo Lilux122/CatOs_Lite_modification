@@ -20,13 +20,7 @@
 
 ![scheme](https://github.com/CatDevCode/CatOs/blob/main/assets/scheme_lite.png)
 
-2. Схема питания
-
-![scheme_bat](https://github.com/CatDevCode/CatOs/blob/main/assets/bat_lite.png)
-
-> [!TIP]
-> Резисторы на 100 kOm
-
+Чтобы увидеть более улучшеную схему подключения перейдите на этот сайт https://wokwi.com/projects/436710693132425217
 ## Создание изображений и загрузка
 1. Запустите [imageProcessor.exe](https://github.com/AlexGyver/imageProcessor) (установите java)
 
