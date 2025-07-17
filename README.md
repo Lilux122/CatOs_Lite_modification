@@ -16,11 +16,7 @@
 - Литий-ионный аккумулятор
 ## [МОЖНО ПРОШИТЬ ESP32 НА МОЁМ САЙТЕ](https://catdevcode.github.io/CatOs_webflasher/)
 ## Простой для DIY
-1. Схема подключения
-
-![scheme]((https://github.com/Lilux122/CatOs_Lite_modification/blob/main/photos/lol.png))
-
-Чтобы увидеть более улучшеную схему подключения перейдите на этот сайт https://wokwi.com/projects/436710693132425217
+1. Схема подключения https://wokwi.com/projects/436710693132425217
 ## Создание изображений и загрузка
 1. Запустите [imageProcessor.exe](https://github.com/AlexGyver/imageProcessor) (установите java)
 
